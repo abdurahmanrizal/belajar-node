@@ -1,0 +1,18 @@
+.main-label__list {
+  padding: 0.5rem 0;
+  margin: 0 2.5rem;
+  color: #ff9100;
+}
+.main-list__item-list {
+  list-style: none;
+}
+
+.main-list__item {
+  padding: 1rem 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid white;
+  background-color: #00ccff;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 1rem 3rem transparent;
+}

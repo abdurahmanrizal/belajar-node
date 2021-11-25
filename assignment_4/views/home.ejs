@@ -1,0 +1,17 @@
+<%- include('includes/head.ejs') %>
+<%- include('includes/navigation.ejs') %>
+  <main>
+    <h3 class="text-center">List of User...</h3>
+    <% if(users.length > 0) {%>
+      <div >
+        <ul class="list-user">
+          <% for(user of users) {%>
+            <li class="card product-item"><%= user.title %></li>
+          <% } %>
+        </ul>
+      </div>
+    <% }else{%>
+    <h3 class="text-center">No User Found!</h3>
+    <%}%>
+  </main>
+<%- include('includes/end.ejs')%>
